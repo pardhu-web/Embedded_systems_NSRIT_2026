@@ -1,0 +1,21 @@
+//No return, No argument
+
+#include<stdio.h>
+
+int a=100;
+int b=200;
+
+void add();
+
+int main()
+{
+    add();
+}
+
+void add()
+{
+    int c = a+b;
+    printf("Result: %d",c);
+}
+
+
